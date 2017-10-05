@@ -1,0 +1,13 @@
+I've created few new tables based on mine experience on websites
+where you can by something, like :
+
+-cart, for orders you're considering to buy
+
+-payment_card, so you could enter multiple cards and choose with which to buy,
+and allow system to remember them so you don't have to enter all numbers over and over again
+
+-billing and shipping address, maybe customer would have few shipping and billing addresses so i thought
+it will be useful to have tables that represent them as well 
+
+-survey, newsletter, emails - i saw on 2nd task there are couple of methods about them,
+so i assumed they are needed
