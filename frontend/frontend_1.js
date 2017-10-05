@@ -1,4 +1,4 @@
-//Frontend 1.
+//Frontend 1. task solution
 var input=[{'1': ['4', 'Lorem ipsum']},{'3': ['2', 'Lorem ipsum']}];
 
 var output = new Array();

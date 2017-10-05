@@ -1,0 +1,50 @@
+$blue-button-color: blue;
+$orange-button-color: orange;
+$text-border-color: #eee;
+
+.container-wrapper {
+    width: 500px;
+    #outer-container-wrapper {
+        label {
+            color: #ccc;
+        }
+        textarea {
+            border: solid 1px $text-border-color;
+            border-radius: 3px;
+            font-size: 12px;
+            padding: 1em 2em;
+            height: 150px;
+        }
+    }
+}
+input[type=text] {
+    border: solid 1px $text-border-color;
+    border-radius: 3px;
+    font-size: 12px;
+    padding: 1em 2em;
+}
+.blue-button {
+    border: solid 2px $blue-button-color;
+    padding: 1rem 3rem;
+    font-size: 14px;
+    background: #fff;
+    color: $blue-button-color;
+
+    &:hover{
+      background: $blue-button-color;
+      color: #fff;
+    }
+}
+
+.orange-button {
+    border: solid 2px $orange-button-color;
+    padding: 1rem 3rem;
+    font-size: 14px;
+    background: #fff;
+    color: $orange-button-color;
+
+    &:hover{
+      background: $orange-button-color;
+      color: #fff;
+    }
+}
